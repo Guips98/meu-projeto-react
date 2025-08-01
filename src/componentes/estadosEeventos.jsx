@@ -16,7 +16,7 @@ export default function MeuContador() {
     return (
       <div className="container">
         <h1>Meu Contador</h1>
-        <h3>Valor maximo atingido 20</h3>
+        <h3>DANI E GAY</h3>
         <button className={styles.myButton} onClick={diminuir}>Diminuir</button>
       </div>
     );
