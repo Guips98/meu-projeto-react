@@ -12,7 +12,7 @@ export default function MeuContador() {
     setContador(contador - 1);
   }
 
-  if (contador >= 20) {
+  if (contador >= 24) {
     return (
       <div className="container">
         <h1>Meu Contador</h1>
