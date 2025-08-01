@@ -16,11 +16,11 @@ export default function MeuContador() {
     return (
       <div className="container">
         <h1>Meu Contador</h1>
-        <h3>DANI E GAY</h3>
+        <h3>DANI É GAY</h3>
         <button className={styles.myButton} onClick={diminuir}>Diminuir</button>
       </div>
     );
-  } else if(contador <= -20) {
+  } else if(contador <= -24) {
     return (
       <div className="container">
         <h1>Meu Contador</h1>
