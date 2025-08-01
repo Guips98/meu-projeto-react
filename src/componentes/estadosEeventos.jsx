@@ -12,19 +12,19 @@ export default function MeuContador() {
     setContador(contador - 1);
   }
 
-  if (contador >= 10) {
+  if (contador >= 20) {
     return (
       <div className="container">
         <h1>Meu Contador</h1>
-        <h3>Valor maximo atingido 10</h3>
+        <h3>Valor maximo atingido 20</h3>
         <button className={styles.myButton} onClick={diminuir}>Diminuir</button>
       </div>
     );
-  } else if(contador <= -10) {
+  } else if(contador <= -20) {
     return (
       <div className="container">
         <h1>Meu Contador</h1>
-        <h3>Valor minimo atingido -10</h3>
+        <h3>Valor minimo atingido -20</h3>
         <button className={styles.myButton} onClick={aumentar}>Aumentar</button>
       </div>
     );
